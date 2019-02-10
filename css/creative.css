@@ -1,0 +1,354 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Gilda Display', 'Hind Siliguri', Arial, sans-serif;
+}
+
+hr {
+  border-color: #ba3d98;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: #ba3d98;
+}
+
+p {
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2.65rem;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+  color: #ba3d98;
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  font-weight: 400;
+  transition: color 0.3s;
+  /*text-transform: uppercase;*/
+}
+
+.brand {
+  font-family: 'Gilda Display', 'Hind Siliguri', Arial, sans-serif;
+  font-weight: 700;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  /*background-image: url('../images/StockSnap_LMTWTJPZFB.jpg');*/
+  text-align: center;
+}
+
+.homeBg {
+  background-image: url('../images/header-bg.png');
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+header .header-content .header-content-inner h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: black;
+  line-height: 1.6;
+  text-shadow: 0 0.5px 10px white;
+  }
+
+}
+
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+/*Media query for desktop*/
+@media (min-width: 768px) {
+  p {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 2.75rem
+  }
+
+  header {
+    min-height: 100%;
+  }
+
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header .header-content .header-content-inner h1 {
+    font-size: 2.35rem;
+  }
+
+  header .header-content .header-content-inner p {
+    color: black;
+    font-family: 'Hind Siliguri', Arial, sans-serif;
+    font-size: 1.25rem;
+    text-shadow: 0 0.5px 2px lightgray;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} /*End header media query for desktop*/
+
+.btn-first {
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color: #a27aa7;
+  border-color: white;
+  padding: 15px 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-first:hover,
+.btn-first:focus,
+.btn-first.focus,
+.btn-first:active,
+.btn-first.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ba3d98;
+  border-color: #ba3d98;
+}
+
+/*About*/
+section {
+  padding: 5rem 0;
+}
+
+.bg-primary {
+  background-color: #a27aa7;
+}
+
+.btn-default {
+  font-family: 'Hind Siliguri', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  background-color: white;
+  border-color: white;
+  padding: 15px 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: white;
+  background-color: #ba3d98;
+  border-color: #ba3d98;
+}
+
+/*Competences*/
+hr.primary {
+  margin: 2rem auto;
+}
+
+i {
+  color: #ba3d98;
+}
+
+/*Portfolio*/
+.img-responsive {
+  width: 100%
+  height: auto;
+}
+
+#portfolio {
+  text-align: center;
+  padding
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+#portfolio .portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay {
+  background: #141414;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+  opacity: 0.9;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
+  text-align: center;
+  padding: 30% 20px 20px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .fa {
+  background: #f9f9f9;
+  border-radius: 100px;
+  color: #141414;
+  font-size: 1.3rem;
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.thumb {
+  margin-bottom: 1.75rem;
+}
+
+/*Contact*/
+#contact {
+  background-color: #a27aa7;
+  color: white;
+}
+
+.social-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+.social-icon li i {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 0.05rem;
+  line-height: 2.85rem;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  position: relative;
+  top: 0px;
+}
+
+/*li a.instagram {
+  padding-bottom: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}*/
+
+.social-icon i,
+a.email {
+  color: white;
+}
+.social-icon li i:hover {
+  background: #ba3d98;
+  color: white;
+}
+
+a.email:hover {
+  text-decoration: underline;
+  color: #ba3d98;
+  text-shadow: 0px 0px 0.5px grey;
+}
