@@ -156,9 +156,6 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 
-  .container {
-    width: 1024px;
-  }
 } /*End header media query for desktop*/
 
 .btn-first {
