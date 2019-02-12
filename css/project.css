@@ -59,7 +59,6 @@ p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-  color: #ba3d98;
   font-family: 'Hind Siliguri', Arial, sans-serif;
   font-weight: 400;
   transition: color 0.3s;
@@ -69,6 +68,10 @@ p {
 a.navbar-brand {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+img.icon-brand {
+  max-width: 32px;
 }
 
 .brand {
