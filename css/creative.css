@@ -59,11 +59,17 @@ p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
+  height: auto;
   color: #ba3d98;
   font-family: 'Hind Siliguri', Arial, sans-serif;
   font-weight: 400;
   transition: color 0.3s;
   /*text-transform: uppercase;*/
+}
+
+a.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .brand {
@@ -120,6 +126,11 @@ header .header-content .header-content-inner p {
 
 /*Media query for desktop*/
 @media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
   p {
     font-size: 1.25rem;
   }
@@ -356,5 +367,15 @@ a.email:hover {
 @media only screen and (max-width: 767px) {
   p.phone {
     color: white;
+  }
+
+  .desktop-show {
+    display: none;
+  }
+
+  .navbar-toggle {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
   }
 }
