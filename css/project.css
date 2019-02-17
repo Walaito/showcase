@@ -108,8 +108,6 @@ header .header-content .header-content-inner h1 {
   text-shadow: 0 0.5px 10px white;
   }
 
-}
-
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
@@ -168,7 +166,6 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
-
 } /*End header media query for desktop*/
 
 .btn-first {
@@ -277,6 +274,7 @@ a.email:hover {
   text-shadow: 0px 0px 0.5px grey;
 }
 
+/*Mobile query*/
 @media only screen and (max-width: 767px) {
   p.phone {
     color: white;
@@ -291,4 +289,4 @@ a.email:hover {
     margin-right: 15px;
     margin-bottom: 15px;
   }
-}
+}/*End Mobile query*/

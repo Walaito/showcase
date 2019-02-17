@@ -114,8 +114,6 @@ header .header-content .header-content-inner h1 {
   text-shadow: 0 0.5px 10px white;
   }
 
-}
-
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
@@ -248,13 +246,12 @@ i {
 
 /*Portfolio*/
 .img-responsive {
-  width: 100%
+  width: 100%;
   height: auto;
 }
 
 #portfolio {
   text-align: center;
-  padding
 }
 
 #portfolio img {
@@ -367,6 +364,7 @@ a.email:hover {
   text-shadow: 0px 0px 0.5px grey;
 }
 
+/*Mobile query*/
 @media only screen and (max-width: 767px) {
   p.phone {
     color: white;
@@ -381,4 +379,4 @@ a.email:hover {
     margin-right: 15px;
     margin-bottom: 15px;
   }
-}
+} /*End mobile query*/
