@@ -275,7 +275,7 @@ a.email:hover {
 }
 
 /*Mobile query*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   p.phone {
     color: white;
   }
@@ -289,4 +289,11 @@ a.email:hover {
     margin-right: 15px;
     margin-bottom: 15px;
   }
+
+  img.project-img,
+video {
+  max-width: 100%;
+  margin-top: 3rem;
+}
+
 }/*End Mobile query*/
