@@ -1,0 +1,25 @@
+{
+  "background_color": "white",
+  "description": "Walai's showcase",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icons/favicon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Walai",
+  "short_name": "Walai",
+  "start_url": "index.html"
+}
