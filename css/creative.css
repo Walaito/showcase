@@ -125,6 +125,10 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 
+a.link {
+  padding: 5rem;
+}
+
 /*Media query for desktop*/
 @media (min-width: 768px) {
   .navbar-nav>li>a {
